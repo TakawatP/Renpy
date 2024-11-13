@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 6: expected '=' not found.
+    define completed_mode
+                         ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Fri Jun 21 06:08:05 2024

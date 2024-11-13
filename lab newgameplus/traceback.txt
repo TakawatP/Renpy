@@ -1,0 +1,40 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "game/screens.rpy", line 584, in prepare_screen
+    screen load(completed_mode = False):
+  File "game/screens.rpy", line 584, in prepare
+    screen load(completed_mode = False):
+  File "game/screens.rpy", line 588, in prepare
+    if completed_mode:
+  File "game/screens.rpy", line 590, in prepare
+    else:
+Exception: A screen named file_slots does not exist.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\renpy-8.2.1-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "D:\renpy-8.2.1-sdk\renpy\main.py", line 635, in main
+    run(restart)
+  File "D:\renpy-8.2.1-sdk\renpy\main.py", line 94, in run
+    renpy.display.screen.prepare_screens()
+  File "D:\renpy-8.2.1-sdk\renpy\display\screen.py", line 1026, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/screens.rpy", line 584, in prepare_screen
+    screen load(completed_mode = False):
+  File "game/screens.rpy", line 584, in prepare
+    screen load(completed_mode = False):
+  File "game/screens.rpy", line 588, in prepare
+    if completed_mode:
+  File "game/screens.rpy", line 590, in prepare
+    else:
+  File "D:\renpy-8.2.1-sdk\renpy\sl2\slast.py", line 2027, in prepare
+    raise Exception("A screen named {} does not exist.".format(self.target))
+Exception: A screen named file_slots does not exist.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.1.24030407
+lab newgameplus 1.0
+Fri Jun 21 06:08:23 2024
